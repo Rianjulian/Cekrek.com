@@ -730,14 +730,14 @@ p.content-footer {
     .direct p {
         font-size: 16px;
         font-weight: 300;
-        width: 328px;
+        width: 360px;
         word-spacing: 2px;
         color: #808080;
     }
 
     .type{
-        max-width: 100%;
-        width: 263px;
+        min-width: 263px;
+        width: 100%;
         transition: 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
     }
 
